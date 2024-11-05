@@ -19,7 +19,7 @@ const Cart = () => {
 
   return (
     <Container className='mt-5'>
-        <h1 className='text-center mt-4 py-4 text-warning'>Total : {total}</h1>
+        <h1 className='cart-price text-center mt-4 py-4 text-warning'>Total : {total}</h1>
 
         <Row className='g-4 '>
             {
