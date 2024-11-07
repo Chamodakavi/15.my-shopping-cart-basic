@@ -5,7 +5,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Cart = () => {
 
-  const {cart,setCart} = useContext(CartContext)
+  const {cart,setCart,productState, productDispatch} = useContext(CartContext)
+
+  
 
   const [total,setTotal] = useState('0')
 
